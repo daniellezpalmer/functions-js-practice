@@ -2,9 +2,17 @@
 // Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in JavaScript.
 // Then, write and example of using the function.
 
-function max(){
-    // Your answer here
+function max(a, b) {
+  if (a > b) {
+    return a
+  } else if (a < b) {
+    return b
+  }
 }
+let a = 88
+let b = 50
+
+console.log(max(a, b))
 
 
 // 2.
