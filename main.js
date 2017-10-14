@@ -97,7 +97,14 @@ console.log(getLength('Hello World'));
 // and returns `true` if the second parameter is greater than the first.
 // Otherwise the function should return `false`.
 // Then, write and example of using the function.
-
+function greaterThan (b, e) {
+  if (b>e){
+    return false;
+  } else if (b<e){
+    return true;
+  }
+}
+console.log(greaterThan(2,4));
 
 
 // 8.
