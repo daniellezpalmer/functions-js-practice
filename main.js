@@ -127,3 +127,8 @@ console.log(greet('Danielle'))
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
+function madLib(l, m, a, o) {
+  return 'This ' + l + 'hates ' + m + ' code, ' + a + 'functions' + o
+}
+
+console.log(madLib('girl ', 'writing', 'specifically ', '!'))
