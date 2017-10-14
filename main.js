@@ -36,9 +36,32 @@ console.log(maxOfThree(c, d, e));
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 // Then, write and example of using the function.
 
-function isVowel(char){
-    // Your answer here
+function isVowel(x) {
+  if (x === "a") {
+    return true
+  } if (x === "e") {
+    return true
+  } if (x === "i") {
+    return true
+  } if (x === "o") {
+    return true
+  } if (x === "u") {
+    return true
+  } {
+    return false
+  }
 }
+
+let vowelResult = isVowel("a")
+let vowelResult1 = isVowel("e")
+let vowelResult2 = isVowel("i")
+let vowelResult3 = isVowel("o")
+let vowelResult4 = isVowel("u")
+console.log(vowelResult)
+console.log(vowelResult1)
+console.log(vowelResult2)
+console.log(vowelResult3)
+console.log(vowelResult4)
 
 
 // 4.
