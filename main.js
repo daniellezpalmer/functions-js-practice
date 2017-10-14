@@ -77,7 +77,10 @@ console.log(answer)
 // 5.
 // Write a function named `avg` that takes 3 parameters and returns the average of those 3 numbers.
 // Then, write and example of using the function.
-
+function avg(d, u, h) {
+  return (d + u + h) / 3;
+}
+console.log(avg(1,2,3));
 
 
 // 6.
