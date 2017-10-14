@@ -19,9 +19,17 @@ console.log(max(a, b))
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
 // Then, write and example of using the function.
 
-function maxOfThree(){
-    // Your answer here
+function maxOfThree(c, d, e) {
+  if (c > d) {
+    return Math.max(c, d, e)
+  }
 }
+
+let c = 76
+let d = 39
+let e = 93
+
+console.log(maxOfThree(c, d, e));
 
 
 // 3.
