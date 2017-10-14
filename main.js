@@ -86,7 +86,10 @@ console.log(avg(1,2,3));
 // 6.
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
-
+function getLength(i) {
+  return i.length;
+}
+console.log(getLength('Hello World'));
 
 
 // 7.
