@@ -113,7 +113,10 @@ console.log(greaterThan(2,4));
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 // Then, write and example of using the function.
-
+function greet(z) {
+  return 'Hello, ' + z + '!'
+}
+console.log(greet('Danielle'))
 
 
 // 9.
