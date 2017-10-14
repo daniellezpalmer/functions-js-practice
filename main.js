@@ -67,7 +67,11 @@ console.log(vowelResult4)
 // 4.
 // Write a function called `sum` that takes two parameters and returns the sum of those 2 numbers.
 // Then, write and example of using the function.
-
+function sum (num1,num2) {
+  return num1 + num2;
+}
+let answer = sum(25, 30)
+console.log(answer)
 
 
 // 5.
